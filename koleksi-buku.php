@@ -40,7 +40,7 @@ $books = display($query_book);
                 <td><?= $book['stock_buku']; ?></td>
             </tr>
             <?php $i++ ?>
-            <php endforeach; ?>
+            <?php endforeach; ?>
         </tbody>
     </table>
 <?php include "page/script.php" ?>
